@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background:#ccc;
+}
+.group{
+    position:relative;
+   
+}
+.header-bg{
+    background:#50cc50d2;
+    position:fixed;
+    top:0;
+    right:0;
+    width:100%;
+    
+}
+.header-bg h1{
+    font-size:1.4em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:cursive;
+    color:#000;
+    
+    
+}
+.dove-logo{
+    float:right;
+    clear:both;
+}
+.dove-logo .bird{
+    width:200px;
+    height:200px;
+    background-color: black;
+}
+    .nav-inline{
+        background-color: #16f534e5;
+        width:96%;
+    }
+    .nav-inline .list-item{
+        display:flex;
+        justify-content: flex-start;
+        list-style-type: none;
+    }
+    .nav-inline .list-item li{
+        margin:1em;
+        text-transform:uppercase;
+       
+    }
+    .nav-inline .list-item a{
+        color:#000;
+        text-decoration: none;
+        padding:0.2em;
+    }
+    .inner-bg{
+        width:100%;
+        background-color: #50cc50d2;
+        margin-top:140px;
+        position:relative;
+        margin-left:-7px;
+        margin-right:2em;
+    } 
+    .container{
+       
+        width: 100%;
+        
+         display:flex; 
+         flex-direction: row;
+         
+        padding-bottom:3em;
+        
+        
+      
+       
+        
+        
+    }
+    .block-1 h2{
+        text-align: center;
+        font-family: cursive;
+        padding-top:0.2em;
+        font-size: 1.3em;
+        display:block;
+    }
+    .container p{
+        font-weight: 100;
+        color:#333;
+        text-transform: capitalize;
+        padding-bottom:4em;
+        margin-bottom:0;
+    }
+        .block-1{
+            background-color:#16f534e5;
+            display:inline;
+            width:70%;
+            margin-top:0.5em;
+            margin-bottom:-2em;
+            margin-left:0.5em;
+        }
+        
+        .block-2{
+            display: block;
+            width:40%;
+            max-width:100%;
+            padding-left:2em;
+            background-color:#16f534e5;
+            margin-left:0.5em;
+            margin-top:0.5em;
+            margin-bottom:-2em;
+            margin-right:0.5em;
+            
+        }
+        .block-2 h2{
+            text-align:center;
+            text-transform:uppercase;
+            font-family:cursive;
+            font-weight:500;
+        }
+    .img-gallary{
+        display:flex;
+        
+        
+       
+    }
+
+    
+    .down{
+        background-color:#50cc50d2;
+        margin-left:0;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        left:0;
+    }
+    .down p{
+        font-size:1em;
+        font-weight:200;
+        padding-left:0.5em;
+        padding-top:0.5em;
+        padding-bottom:2em;
+    }
